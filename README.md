@@ -31,7 +31,7 @@ ChatBot/
 └── README.md        # Project documentation
 ```
 
-## ⚙️ How It Works
+##  How It Works
 
 1. The user enters a query through the Streamlit interface.
 2. The query is optionally cleaned and normalized using the preprocessing module.
@@ -40,7 +40,7 @@ ChatBot/
 5. The chatbot selects the best-matching intent.
 6. A predefined response is returned, or a fallback message is shown if the similarity score is below the configured threshold.
 
-## 🚀 Installation and Setup
+##  Installation and Setup
 
 ### 1. Clone the repository
 
