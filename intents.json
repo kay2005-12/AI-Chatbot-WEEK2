@@ -1,0 +1,177 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "How are you"
+      ],
+      "responses": [
+        "Hello!! How can I help you?",
+        "Hi there! How may I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "Thanks for contacting TechNova Support. See you again!"
+      ]
+    },
+    {
+      "tag": "bot_identity",
+      "patterns": [
+        "Who are you",
+        "What is your name",
+        "Are you a bot",
+        "Tell me about yourself"
+      ],
+      "responses": [
+        "I am TechNova's AI support chatbot, designed to answer your questions."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you offer",
+        "Tell me about your services",
+        "What can you do",
+        "Which services are available"
+      ],
+      "responses": [
+        "I will help you in domain of software development, web development, and AI solutions."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "What is the price",
+        "How much does it cost",
+        "Tell me your pricing",
+        "What are your charges"
+      ],
+      "responses": [
+        "Our pricing depends on the service and project requirements. Please contact our support team for a quote."
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "What are your working hours",
+        "When are you open",
+        "When do you close",
+        "Are you open today"
+      ],
+      "responses": [
+        "Our fictional support team's working hours are Monday to Friday, 9 AM to 6 PM."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you",
+        "What is your email",
+        "How do I reach support",
+        "Give me your contact details"
+      ],
+      "responses": [
+        "This demo uses fictional company information. Please configure an official contact address before real-world deployment."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located",
+        "What is your office address",
+        "Where is your company",
+        "Tell me your location"
+      ],
+      "responses": [
+        "TechNova is a fictional company created for this chatbot demonstration."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Which payment methods do you accept",
+        "Can I pay online",
+        "Do you accept cards",
+        "How can I make a payment"
+      ],
+      "responses": [
+        "Payment options depend on the selected service. Please contact support to confirm available methods."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "How can I get a refund",
+        "What is your refund policy",
+        "I want my money back",
+        "Can I cancel my order"
+      ],
+      "responses": [
+        "Please contact support with your order details to discuss cancellation or refund eligibility."
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "I have a technical problem",
+        "Something is not working",
+        "I need technical help",
+        "I found a bug"
+      ],
+      "responses": [
+        "I'm sorry you're facing an issue. Please describe the problem and any error message you see."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "That was helpful",
+        "I appreciate your help"
+      ],
+      "responses": [
+        "You're welcome! I'm happy to help.",
+        "Glad I could help. Is there anything else you'd like to know?"
+      ]
+    },
+    {
+      "tag": "human_agent",
+      "patterns": [
+        "I want to talk to a human",
+        "Connect me to an agent",
+        "Can I speak to a person",
+        "I need a real person"
+      ],
+      "responses": [
+        "I can help with common questions. For human assistance, please contact your designated support team."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help me",
+        "What can I ask you",
+        "Show me your features",
+        "What can you help me with"
+      ],
+      "responses": [
+        "I can answer questions about services, pricing, working hours, payments, refunds, and technical support."
+      ]
+    }
+  ]
+}
