@@ -1,8 +1,8 @@
-# AI Chatbot 🤖
+# AI Chatbot 
 
 A simple, NLP-based customer support chatbot built with Python, Scikit-learn, and Streamlit. The chatbot identifies user intent by comparing user queries with predefined patterns using TF-IDF vectorization and cosine similarity, then returns an appropriate response.
 
-## ✨ Features
+## Features
 
 - **Intent Recognition:** Matches user queries with predefined intent patterns.
 - **TF-IDF Vectorization:** Converts text into numerical feature vectors.
@@ -12,7 +12,7 @@ A simple, NLP-based customer support chatbot built with Python, Scikit-learn, an
 - **Multiple Intents:** Supports greetings, services, pricing, working hours, contact information, refunds, technical support, and more.
 - **Modular Structure:** Separates chatbot logic, query preprocessing, intent data, and UI.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - Scikit-learn
@@ -20,7 +20,7 @@ A simple, NLP-based customer support chatbot built with Python, Scikit-learn, an
 - Streamlit
 - JSON
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 ChatBot/
@@ -79,7 +79,7 @@ streamlit run app.py
 
 The application will open in your browser.
 
-## 🧪 Example Queries
+##  Example Queries
 
 | User Query | Expected Intent |
 |---|---|
@@ -92,7 +92,7 @@ The application will open in your browser.
 
 Actual predictions depend on the patterns defined in `intents.json` and the similarity threshold.
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Improve query normalization and linguistic preprocessing.
 - Add context-aware multi-turn conversations.
@@ -101,11 +101,11 @@ Actual predictions depend on the patterns defined in `intents.json` and the simi
 - Add conversation export functionality.
 - Deploy the application for public access.
 
-## 🎯 Project Objective
+##  Project Objective
 
 This project demonstrates how traditional NLP techniques can be used to build a lightweight intent-based chatbot without relying on external LLM APIs.
 
-## 👨‍💻 Author
+##  Author
 
 **Syed Kaysan Ul Islam**
 
